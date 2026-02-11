@@ -8,13 +8,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types",
     "prepare": "husky",
-     "commit": "cz"
+    "commit": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint-config-prettier": "^10.1.1",
     "husky": "^9.1.7",
     "prettier": "^3.7.4",
     "turbo": "^2.8.3",
